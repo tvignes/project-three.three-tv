@@ -27,3 +27,18 @@ svg{
     height: 100vh;
     z-index: 9999;
 }
+
+
+
+#cloud1{
+    transform: translateX(-50%);
+    animation: moveCloud1 50s linear infinite;
+}
+@keyframes moveCloud1 {
+    0% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(-120%);
+    }
+}
