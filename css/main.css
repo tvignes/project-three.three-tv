@@ -3,8 +3,9 @@ body{
     margin: 0;
 }
 svg{
-    width: 100%;
-    height: 400vh;
+    display: block;
+    width: 100vw;
+    height: auto;
     margin: 0;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -13,18 +14,18 @@ svg{
 .scroll-container{
     position: relative;
     width: 100vw;
-    height: 400vh;
+    height: auto;
     overflow-y: scroll; /* Enable vertical scrolling */
 }
 .bg{
-    width: 100%;
-    height: 400vh; /* Make it taller to enable scrolling */
+    width: 100vw;
+    height: auto; /* Make it taller to enable scrolling */
 }
 .fg{
     position: fixed; /* Fix the foreground layer */
     bottom: 0px;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     z-index: 1;
 }
 #text{
