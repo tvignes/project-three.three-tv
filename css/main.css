@@ -28,6 +28,13 @@ svg{
     height: auto;
     z-index: 1;
 }
+.fg{
+    position: fixed; /* Fix the foreground layer */
+    bottom: 0px;
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+}
 #text{
     z-index: 2;
     animation: moveText 10s linear infinite;animation: moveText 10s linear infinite;
