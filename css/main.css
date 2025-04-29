@@ -15,21 +15,21 @@ svg{
     position: relative;
     width: 100vw;
     height: auto;
-    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-y: scroll;
 }
 .bg{
     width: 100vw;
-    height: auto; /* Make it taller to enable scrolling */
+    height: auto;
 }
 .fg{
-    position: fixed; /* Fix the foreground layer */
+    position: fixed;
     bottom: 0px;
     width: 100vw;
     height: auto;
     z-index: 1;
 }
 .fg{
-    position: fixed; /* Fix the foreground layer */
+    position: fixed;
     bottom: 0px;
     width: 100vw;
     height: auto;
@@ -38,7 +38,7 @@ svg{
 #text{
     z-index: 2;
     animation: moveText 10s linear infinite;animation: moveText 10s linear infinite;
-    transition: opacity 1s ease; /* Smooth transition for opacity */
+    transition: opacity 1s ease;
 }
 @keyframes moveText {
     0% {
